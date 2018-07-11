@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="css/style.css?<?=rand(1,99999999)?>"/>
 	<link rel="stylesheet" href="css/all-styles.css?<?=rand(1,99999999)?>"/>
 	<link rel="stylesheet" href="fonts/HurmeGeometricSans.css"/>
-
 </head>
 <body>
 
@@ -187,8 +186,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 i-frame text-center">
-          <div class="youtube" id="OXloSIP4F1k" style="width: 500px; height: 281px;"></div>
-        </div>
+						<!--  -->
+	          <div class="youtube" id="OXloSIP4F1k" style="width: 500px; height: 281px;">
+
+	          </div>
+        	</div>
         </div>
 				<div class="row text-center justify-content-center">
 					<a href="presentation.pdf" download class="btn  footer__sale-btn text-center"><span>DOWNLOAD INFORMATION</span></a>
@@ -576,7 +578,7 @@
 							</div>
 							<div class="_text">Leave your e-mail to get updates from us. Strict no spam policy.</div>
 							<form id="subscribe">
-								<label><input type="email" id="form_input" required data-validation="email"></label>
+								<label><input type="text" id="form_input" required data-validation="email" data-inputmask-alias="email" data-val="true" data-val-required="Required" name="EMAIL" placeholder="EMAIL"></label>
 								<button type="button" id="sub_btn" class="btn-hex" data-target='#offerTyModal' data-toggle='modal'></button>
 							</form>
 						</div>
@@ -698,7 +700,7 @@
 integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
 integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="js/jquery.inputmask.bundle.js"></script>
 
 <!-- <script src="js/aos.js"></script> -->
 <script src="js/script.js"></script>
@@ -713,14 +715,12 @@ $(document).ready(function () {
 		} else {
 			$('header').removeClass('_bg');
 		}
-	})
+	});
+	$(":input[data-inputmask-mask]").inputmask();
+	$(":input[data-inputmask-alias]").inputmask();
+	$(":input[data-inputmask-regex]").inputmask("Regex");
 })
 </script>
-
-
-
-
-
 
 
 
