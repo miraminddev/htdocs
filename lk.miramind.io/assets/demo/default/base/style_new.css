@@ -1,0 +1,349 @@
+
+/* .m-stack.m-stack--general.m-stack--ver>.m-stack__item {
+  display: inline-block;
+} */
+
+.logo {
+  width: 75px;
+}
+
+#mira_balance {
+  color: #55ebff;
+  font-size: 1.3em;
+  vertical-align: baseline;
+}
+
+.m-wizard.m-wizard--1.m-wizard--success .m-wizard__progress .progress .progress-bar:after {
+  background-color: #b436dd;
+}
+
+.m-wizard.m-wizard--1.m-wizard--success .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info a.m-wizard__step-number>span {
+  background-color: #b436dd !important;
+}
+
+.m-wizard.m-wizard--1.m-wizard--success .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info a.m-wizard__step-number:hover>span {
+  background-color: #b4368d !important;
+}
+
+.m-brand .m-brand__tools .m-dropdown .btn>span {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  font-size: 1.3em;
+}
+
+.btn.dropdown-toggle:after {
+  display: none;
+}
+
+.body_wrapper {
+  flex: none !important;
+}
+
+.m-grid.m-grid--ver-desktop.m-grid--desktop {
+  flex-direction: column;
+}
+
+.body_wrapper {
+  padding-top: 50px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 auto !important;
+}
+
+
+.refferal_link {
+  display: flex;
+}
+
+.alert {
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.m-accordion.m-accordion--section .m-accordion__item {
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.m-nav {
+  /* box-shadow: 0 5px 8px rgba(0,0,0,0.3); */
+}
+
+.form-control {
+  border-color: #a1a1a1;
+}
+
+#m_table_1 {
+  margin: auto;
+  background: #eeeeee;
+}
+
+
+.my_wallet {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.wallet {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wallet_img {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+
+.wallet_eth {
+  background: #eeeeee;
+  padding: 0 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3em;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.wallet_info {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: #b436dd;
+}
+
+.contacts_mira_info_inner {
+  padding-bottom: 10px;
+}
+
+.soc_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soc_inner, .mail_inner, .tel_inner {
+  flex-wrap: nowrap;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.soc_links i {
+  padding-right: 10px;
+  font-size: 2em;
+}
+
+.tel_bg {
+  background: url(../media/img/phone.png);
+  background-color: rgb(207, 216, 220);
+  min-width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mail_bg {
+  background: url(../media/img/mail.png);
+  background-color: rgb(207, 216, 220);
+  min-width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+}
+
+.soc_bg {
+  background: url(../media/img/globe.png);
+  background-color: rgb(207, 216, 220);
+  min-width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+}
+
+.info {
+  background: #eeeeee;
+  padding: 10px 20px 0 20px;
+  width: 100%;
+}
+
+.info_title {
+  font-size: 1.4em;
+}
+
+.feedback_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: #eeeeee;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+  height: 97%;
+}
+
+.feedback_form input {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 4rem;
+  position: relative;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.privet_sale_timeline h2 span {
+  color: #b436dd;
+  font-size: 1.3em;
+}
+
+.progress-bar {
+  background-color: #b436dd !important;
+}
+
+.progress-bar-striped {
+background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+background-size: 1rem 1rem;
+}
+
+.progress-bar-striped {
+background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+background-size: 1rem 1rem;
+}
+
+.progress-bar-animated {
+animation: progress-bar-stripes 1s linear infinite;
+}
+
+#amount_recieved {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10%;
+  font-size: 3em;
+}
+
+.under_bar {
+  padding-top: 50px;
+}
+
+.round {
+  background: #eeeeee;
+  border: 2px solid #b436dd;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.round p:last-child {
+  padding-bottom: 20px;
+}
+
+.round p:first-child {
+  padding-top: 20px;
+}
+
+.round p {
+  color: #000;
+  font-weight: bolder;
+}
+
+.round p span {
+  font-weight: normal;
+  font-size: 1.3em;
+  color: #b436dd;
+}
+
+.sale_btn {
+  margin-bottom: 20px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+.month_span {
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  color: #000 !important;
+}
+
+.round_month {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.coming_soon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(80,80,80,.7);
+  top: 0;
+}
+
+.coming_soon p {
+  font-size: 2em;
+  position: relative;
+  top: 39%;
+  font-weight: bolder;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(-45deg);
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.btn.m-btn--gradient-from-focus.m-btn--gradient-to-danger {
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3) !important;
+}
+
+.eth_img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.eth_img:hover {
+  content: url(../media/img/etc.a.svg);
+}
+
+.exchange_rate {
+  padding-top: 20px;
+}
+
+.exchange_item {
+  margin: 0 auto;
+  background: #eeeeee;
+  border: 2px solid #b436dd;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eth_img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .m-brand .m-brand__tools .m-dropdown .btn>span {
+    font-size: .7em;
+  }
+
+  .body_wrapper {
+    padding-top: 0;
+    padding: 0 5px !important;
+  }
+
+  .my_wallet {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .table {
+    font-size: .7em;
+  }
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Hurme Geometric Sans 1';
+    src: url('HurmeGeometricSans1-Regular.eot');
+    src: local('HurmeGeometricSans1 Regular'), local('HurmeGeometricSans1-Regular'),
+        url('HurmeGeometricSans1-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HurmeGeometricSans1-Regular.woff') format('woff'),
+        url('HurmeGeometricSans1-Regular.ttf') format('truetype'),
+        url('HurmeGeometricSans1-Regular.svg#HurmeGeometricSans1-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme Geometric Sans 2';
+    src: url('HurmeGeometricSans2-SemiBold.eot');
+    src: local('HurmeGeometricSans2 SemiBold'), local('HurmeGeometricSans2-SemiBold'),
+        url('HurmeGeometricSans2-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('HurmeGeometricSans2-SemiBold.woff') format('woff'),
+        url('HurmeGeometricSans2-SemiBold.ttf') format('truetype'),
+        url('HurmeGeometricSans2-SemiBold.svg#HurmeGeometricSans2-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme Geometric Sans 1';
+    src: url('HurmeGeometricSans1-SemiBold.eot');
+    src: local('HurmeGeometricSans1 SemiBold'), local('HurmeGeometricSans1-SemiBold'),
+        url('HurmeGeometricSans1-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('HurmeGeometricSans1-SemiBold.woff') format('woff'),
+        url('HurmeGeometricSans1-SemiBold.ttf') format('truetype'),
+        url('HurmeGeometricSans1-SemiBold.svg#HurmeGeometricSans1-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme Geometric Sans 2';
+    src: url('HurmeGeometricSans2-Regular.eot');
+    src: local('HurmeGeometricSans2 Regular'), local('HurmeGeometricSans2-Regular'),
+        url('HurmeGeometricSans2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HurmeGeometricSans2-Regular.woff') format('woff'),
+        url('HurmeGeometricSans2-Regular.ttf') format('truetype'),
+        url('HurmeGeometricSans2-Regular.svg#HurmeGeometricSans2-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

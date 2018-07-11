@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /panel
+Disallow: /user
+Host: https://zarabotat.money

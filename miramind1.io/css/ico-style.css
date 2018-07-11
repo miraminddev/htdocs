@@ -1,0 +1,143 @@
+
+
+.container {
+width: 100%;
+overflow: hidden;
+padding-top: 200px;
+}
+
+.socials {
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+
+.social img {
+  width: 60%;
+}
+
+#tlg {
+  background: url(../img/telegram_main_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+#tlg:hover {
+  background: url(../img/telegram_active_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+#fb {
+  background: url(../img/facebook_main_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+#fb:hover{
+  background: url(../img/facebook_active_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+#inst {
+  background: url(../img/insta_main_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+#inst:hover {
+  background: url(../img/insta_active_icon.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+  padding: 55px;
+  transition: ease .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
+}
+
+@media screen and (min-height: 1700px) {
+body, html, .wrapper {
+      height: auto;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .wrapper {
+    background-size: auto !important;
+    background-position: top !important;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .ico {
+    margin-top: -200px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .ico {
+    margin-top: -100px;
+  }
+
+  .socials {
+    top: 50px;
+  }
+
+  .eth-address {
+    font-size: .8em;
+  }
+
+  .container {
+    padding-top: 50px;
+  }
+
+  .wrapper {
+    height: 100%;
+    background-size: 900px;
+    background-position: top;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .btn-hex2 {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .eth-address {
+    font-size: .6em;
+  }
+}

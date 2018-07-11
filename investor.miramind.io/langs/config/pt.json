@@ -1,0 +1,38 @@
+{
+    "links": [
+        {
+            "name": "Site ICO",
+            "url": "https:\/\/smartcontract.ru\/",
+            "in_regis": "0"
+        },
+        {
+            "name": "White Paper",
+            "url": "\/docs\/whitepaper.pdf",
+            "in_regis": "0"
+        },
+        {
+            "name": "Termos de Utilização",
+            "url": "\/docs\/licence.pdf",
+            "in_regis": "1"
+        }
+    ],
+    "refferals": {
+        "on": "1",
+        "bonus": "5",
+        "text": "Você pode atrair novos usuários e receber um bônus por eles.\nPara fazer isso, copie o link na caixa abaixo deste bloco. Coloque um link com informações sobre o ICO em outros recursos.\nQuando sua indicação estiver registrada no Painel, saberemos que ela veio por meio do seu link.\nDepois que ele compra fichas, você recebe 5% das fichas de seu investimento.\nAtraia novos investidores e ganhe bônus!"
+    },
+    "help": [
+        {
+            "title": "Eu vejo as fichas em um escritório particular, e na minha bolsa Ethereum-eles não são. O que fazer?",
+            "text": "Não se preocupe. Todas as suas compras são mostrados na sua conta, e os tokens serão creditados na sua carteira após a conclusão da OIC."
+        },
+        {
+            "title": "Quando vou receber os tokens adquiridos?",
+            "text": "Imediatamente após as fichas ICO irá ser enviado."
+        },
+        {
+            "title": "Qual é o valor do depósito mínimo?",
+            "text": "O montante mínimo de depósito 0001 ETH."
+        }
+    ]
+}

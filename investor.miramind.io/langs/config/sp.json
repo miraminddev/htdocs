@@ -1,0 +1,38 @@
+{
+    "links": [
+        {
+            "name": "Сайт ICO",
+            "url": "https:\/\/smartcontract.ru\/",
+            "in_regis": "0"
+        },
+        {
+            "name": "White Paper",
+            "url": "\/docs\/whitepaper.pdf",
+            "in_regis": "0"
+        },
+        {
+            "name": "Пользовательское соглашение",
+            "url": "\/docs\/licence.pdf",
+            "in_regis": "1"
+        }
+    ],
+    "refferals": {
+        "on": "1",
+        "bonus": "5",
+        "text": "Puede atraer nuevos usuarios y obtener una bonificación por ellos.\nPara hacer esto, copie el enlace en el cuadro debajo de este bloque. Coloque un enlace con información sobre ICO en otros recursos.\nCuando su referencia esté registrada en el Tablero, sabremos que vino a través de su enlace.\nDespués de comprar tokens, obtienes el 5% de los tokens de su inversión.\n¡Atrae nuevos inversores y obtén bonos!"
+    },
+    "help": [
+        {
+            "title": "Я вижу токены в личном кабинете, а в моём Ethereum-кошельке их нет. Что делать?",
+            "text": "Не волнуйтесь. Все ваши покупки отображаются в личном кабинете и токены будут начислены на ваш кошелек после завершения ICO."
+        },
+        {
+            "title": "Когда я получю свои токены?",
+            "text": "Токены будут начислены на ваш Eethereum-кошелёк после завершения ICO."
+        },
+        {
+            "title": "Какова минимальная сумма для инвестирования?",
+            "text": "Минимальная сума инвестирования эквивалента 0,001 ETH"
+        }
+    ]
+}

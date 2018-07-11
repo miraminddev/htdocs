@@ -1,0 +1,42 @@
+.m-link.m-link--light:hover:after {
+  border-bottom: 0 !important;
+  opacity: 0 !important;
+}
+
+.alert-info:not(.m-alert--outline) {
+color: #fff;
+background-color: rgba(83, 176, 248, .3);
+border-color: rgba(83, 176, 248, .3);
+}
+
+.mail_confirm  {
+  border-radius: 60px;
+  background-color: rgba(255,255,255,0);
+  border-color: #fff;
+}
+
+.mail_confirm:hover {
+  background-color: rgba(255,255,255,.2);
+  border-color: #fff;
+}
+
+.soc_icons_login i {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+.soc_icons_login a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.soc_icons_login a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.soc_icons_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

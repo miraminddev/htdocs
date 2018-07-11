@@ -1,0 +1,38 @@
+{
+    "links": [
+        {
+            "name": "ICO site",
+            "url": "https:\/\/smartcontract.ru\/",
+            "in_regis": "0"
+        },
+        {
+            "name": "White Paper",
+            "url": "\/docs\/whitepaper.pdf",
+            "in_regis": "0"
+        },
+        {
+            "name": "User Agreement",
+            "url": "\/docs\/licence.pdf",
+            "in_regis": "1"
+        }
+    ],
+    "refferals": {
+        "on": "1",
+        "bonus": "5",
+        "text": "You can attract new users and get a bonus for them.\nTo do this, copy the link in the box below this block. Place a link with information about ICO on other resources.\nWhen your referral is registered in the Dashboard, we will know that it came via your link.\nAfter he buys tokens, you get 5% of the tokens from his investment.\nAttract new investors and get bonuses!"
+    },
+    "help": [
+        {
+            "title": "I see tokens in my account, but in my Ethereum-purse they do not. What to do?",
+            "text": "Do not worry. All your purchases are displayed in your personal account and tokens will be credited to your wallet after the completion of the ICO."
+        },
+        {
+            "title": "When will I receive the purchased tokens?",
+            "text": "Immediately after the end of the ICO, the tokens will be sent."
+        },
+        {
+            "title": "What is the minimum deposit amount?",
+            "text": "The minimum deposit amount is 0.001 ETH."
+        }
+    ]
+}
